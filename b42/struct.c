@@ -23,9 +23,21 @@ int main (void)
 
     // printf("age: %d", dotun.age);
 
-    typedef int num;
-    num r;
-    r = 12;
-    printf("%d\n", r);
+    // typedef int num;
+    // num r;
+    // r = 12;
+    // printf("%d\n", r);
+    // return 0;
+
+    struct person
+    {
+        char name[10];
+        int age;
+    };
+
+    struct person p = { "Dotun", 30 };
+
+    printf("name: %s\nage: %d\n", p.name, p.age);
+
     return 0;
 }
