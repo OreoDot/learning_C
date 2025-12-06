@@ -20,8 +20,8 @@ int main()
     dee.scores[1] = 29;
     dee.scores[2] = 35;
 
-    printf("%s", dee.name);
-    printf("%s", dee.id);
-    printf("%s", dee.age);
-    printf("%s", dee.scores[1]);
+    printf("%s\n", dee.name);
+    printf("%s\n", dee.id);
+    printf("%d\n", dee.age);
+    printf("%d\n", dee.scores[1]);
 }
