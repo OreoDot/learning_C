@@ -29,15 +29,36 @@ int main (void)
     // printf("%d\n", r);
     // return 0;
 
-    struct person
-    {
-        char name[10];
-        int age;
-    };
+    // struct person
+    // {
+    //     char name[10];
+    //     int age;
+    // };
 
-    struct person p = { "Dotun", 30 };
+    // struct person p = { "Dotun", 30 };
 
-    printf("name: %s\nage: %d\n", p.name, p.age);
+    // printf("name: %s\nage: %d\n", p.name, p.age);
 
-    return 0;
+    // return 0;
+
+    // struct person
+    // {
+    //     char name[10];
+    //     int age;
+    // };
+
+    // struct person a = {"Tobey", 28};
+    // printf("name: %s\n age: %d\n", a.name, a.age);
+
+
+    // typedef struct
+    // {
+    //     char name[10];
+    //     int age;
+    // }   person;
+
+    // person d = {"Ore", 13};
+    // printf("name: %s\n age: %d\n", d.name, d.age);
+
+    
 }
