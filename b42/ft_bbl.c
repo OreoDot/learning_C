@@ -1,25 +1,16 @@
 #include <stdio.h>
-
-int ft_bbl(char *str)
-{
-    
-}
-int main(void)
+void bubbleSort(int a[], int len)
 {
     int i;
-    int len;
     int j;
 
-    int a[] = {1,5,3,7,2};
-
     i = 0;
-    len =5;
-    while (i < len)
+    while(i < len)
     {
         j = 0;
-        while(j < (len-1))
+        while(j < (len - 1))
         {
-            if (a[j] > a[j+1])
+            if(a[j] > a[j+1])
             {
                 int temp;
                 temp = a[j];
@@ -30,10 +21,19 @@ int main(void)
         }
         i++;
     }
-    i = 0;
-    while (i < len)
+}
+
+int main(void)
+{
+    int a[] = {1,5,3,7,2,4,6};
+    int len = 7;
+
+    bubbleSort(a, len);
+
+    for(int i = 0; i < len; i++)
     {
-        printf("%d", a[i]);
-        i++;
+        printf("%d ", a[i]);
     }
+
+    return 0;
 }
